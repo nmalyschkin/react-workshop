@@ -1,0 +1,32 @@
+{
+    "name": "react-workshop",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode development",
+        "build:watch": "webpack --watch --mode development",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nmalyschkin/react-workshop.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nmalyschkin/react-workshop/issues"
+    },
+    "homepage": "https://github.com/nmalyschkin/react-workshop#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.9.6",
+        "@babel/preset-env": "^7.9.6",
+        "@babel/preset-react": "^7.9.4",
+        "babel-loader": "^8.1.0"
+    }
+}
