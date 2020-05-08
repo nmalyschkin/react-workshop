@@ -9,6 +9,6 @@ app.get("/", (req, res) => {
     res.sendFile(path.resolve(__dirname, "public", "index.html"));
 });
 
-app.listen(3000, () => {
+app.listen(3001, () => {
     console.log("server running on http://localhost:3000");
 });

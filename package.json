@@ -21,7 +21,12 @@
     },
     "homepage": "https://github.com/nmalyschkin/react-workshop#readme",
     "dependencies": {
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "styled-components": "^5.1.0",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11"
     },
     "devDependencies": {
         "@babel/core": "^7.9.6",
